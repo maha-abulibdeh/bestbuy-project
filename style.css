@@ -1,0 +1,103 @@
+.shopaholic {
+    padding-bottom: 70px;
+}
+
+.shopaholic-title {
+    font: 400 45px "Work Sans", Sans-Serif;
+    color: black;
+}
+
+.cd1{
+    height:474px;
+}
+.logo{
+    width:100px;
+    height:60px;
+}
+
+.card-img-top{
+    height: 300px;
+}
+
+/* cartShopping*/
+.iconShopping {
+    float: right;
+    margin-left:20px;
+    margin-top:20px;
+    font-size: 25px;
+}
+
+.iconShopping :hover{
+    cursor: pointer;
+}
+
+.iconShopping p{
+   position: absolute;
+   top:15px;
+   right:10px;
+   font-size:0.59rem;
+   padding: 5px 5px;
+   border-radius:50%;
+   -webkit-border-radius:50%;
+   -moz-border-radius:50%;
+   -ms-border-radius:50%;
+   -o-border-radius:50%;
+}
+
+.cartBox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    transition: 0.3s linear;
+    transform: scale(0);
+}
+
+.cartBox.active{
+    transform:scale(1);
+}
+
+.cart{
+    position: relative;
+    height: 70%;
+    width: 80%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart i{
+    position: absolute;
+    right:0;
+    top:0;
+    background-color:crimson;
+    padding:10px 15px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.cart h1{
+    position: relative;
+    margin-top: 2%;
+    font-size:2.8rem;
+    color:crimson;
+}
+
+.cart th {
+    padding-right: 60px;
+}
+
+.delete-item {
+    color: lightcoral;
+}
+
+.delete-item:hover {
+    color: crimson;
+}
